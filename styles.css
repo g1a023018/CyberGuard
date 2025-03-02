@@ -56,6 +56,12 @@ nav {
   font-weight: bold;
 }
 
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
 nav ul {
     list-style: none;
     display: flex;
