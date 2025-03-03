@@ -23,8 +23,9 @@ header {
   width: 24px; /* Ukuran lebih jelas */
   height: 24px;
   position: absolute;
-  top: 25px; /* Jarak dari atas */
+  top: 15px; /* Jarak dari atas */
   right: 15px; /* Jarak dari kanan */
+  max-height: 50px; /* Sesuaikan agar tidak terlalu tinggi */
   cursor: pointer;
 }
 
