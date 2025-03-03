@@ -16,20 +16,16 @@ header {
   background: #070707;
   padding: 15px 0;
   color: white;
-}
-
-.header-container {
-    position: relative; /* Pastikan header sebagai referensi posisi */
+  position: relative; /* Menjadikan header sebagai referensi posisi */
 }
 
 .nav-icon {
-  width: 24px;
-  height: 24px;
+  width: 32px; /* Ukuran lebih jelas */
+  height: 32px;
   position: absolute;
-  top: 10px; /* Atur jarak dari atas */
-  right: 10px; /* Atur jarak dari kanan */
+  top: 10px; /* Jarak dari atas */
+  right: 15px; /* Jarak dari kanan */
   cursor: pointer;
-  vertical-align: middle;
 }
 
 .container {
