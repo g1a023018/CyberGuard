@@ -8,20 +8,36 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
+            <div class="logo">🛡️ CyberGuard</div>
             <nav>
-                <div class="logo">
-                    <span class="logo-icon">🛡️</span>
-                    <span>CyberGuard</span>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="kontak.html">Help</a></li>
+                <ul>
+                    <li><button class="menu-btn" onclick="toggleNav()"><img src="user.png" alt="User Icon" class="nav-icon"></button></li>
                 </ul>
             </nav>
         </div>
     </header>
+    
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="toggleNav()">×</button>
+        <ul>
+            <li><a href="index.html">Home (Beranda)</a></li>
+            <li><a href="about.html">About (Tentang)</a></li>
+            <li><a href="kelas.html">Class (Kelas)</a></li>
+            <li><a href="login.html">Login (Masuk)</a></li>
+            <li><a href="register.html">Registrasi (Daftar)</a></li>
+            <li><a href="tips.html#ancaman">Ancaman SIber</a></li>
+            <li><a href="tips.html#keamanan">Tips Keamanan</a></li>
+            <li><a href="kontak.html">Help (Bantuan)</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleNav() {
+            let sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("show");
+        }
+    </script>
 
     <section class="hero">
         <div class="container">
