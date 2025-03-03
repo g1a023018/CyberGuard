@@ -20,10 +20,10 @@ header {
 }
 
 .nav-icon {
-  width: 32px; /* Ukuran lebih jelas */
-  height: 32px;
+  width: 24px; /* Ukuran lebih jelas */
+  height: 24px;
   position: absolute;
-  top: 10px; /* Jarak dari atas */
+  top: 25px; /* Jarak dari atas */
   right: 15px; /* Jarak dari kanan */
   cursor: pointer;
 }
